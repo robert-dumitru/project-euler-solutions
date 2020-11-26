@@ -7,7 +7,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 def multiples(x):
     '''
-    Sums the multiples of 3 and 5 below x and prints them.
+    Returns the sum of the multiples of 3 and 5 below x
     '''
     sum = 0
     for i in range(1, x):
@@ -15,6 +15,7 @@ def multiples(x):
             sum += i
         elif i % 5 == 0:
             sum += i
-    print(sum)
-            
-multiples(100)   
+    return(sum)
+
+if __name__ == "__main__":
+    print(multiples(100))
