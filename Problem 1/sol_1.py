@@ -17,4 +17,4 @@ def multiples(x):
     return(sum)
 
 if __name__ == "__main__":
-    print(multiples(100))
+    print(multiples(1000))
